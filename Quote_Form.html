@@ -29,59 +29,11 @@
 		<link href="assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css" />
 	</head>
 
-	<!--
-		AVAILABLE BODY CLASSES:
-		
-		smoothscroll 			= create a browser smooth scroll
-		enable-animation		= enable WOW animations
-
-		bg-grey					= grey background
-		grain-grey				= grey grain background
-		grain-blue				= blue grain background
-		grain-green				= green grain background
-		grain-blue				= blue grain background
-		grain-orange			= orange grain background
-		grain-yellow			= yellow grain background
-		
-		boxed 					= boxed layout
-		pattern1 ... patern11	= pattern background
-		menu-vertical-hide		= hidden, open on click
-		
-		BACKGROUND IMAGE [together with .boxed class]
-		data-background="assets/images/_smarty/boxed_background/1.jpg"
-	-->
 	<body>
 
 		<!-- wrapper -->
 		<div id="wrapper">
 
-
-			<!-- 
-				AVAILABLE HEADER CLASSES
-
-				Default nav height: 96px
-				.header-md 		= 70px nav height
-				.header-sm 		= 60px nav height
-
-				.b-0 		= remove bottom border (only with transparent use)
-				.transparent	= transparent header
-				.translucent	= translucent header
-				.sticky			= sticky header
-				.static			= static header
-				.dark			= dark header
-				.bottom			= header on bottom
-				
-				shadow-before-1 = shadow 1 header top
-				shadow-after-1 	= shadow 1 header bottom
-				shadow-before-2 = shadow 2 header top
-				shadow-after-2 	= shadow 2 header bottom
-				shadow-before-3 = shadow 3 header top
-				shadow-after-3 	= shadow 3 header bottom
-
-				.clearfix		= required for mobile menu, do not remove!
-
-				Example Usage:  class="clearfix sticky header-sm transparent b-0"
-			-->
 			<div id="header" class="navbar-toggleable-md sticky header-md clearfix">
 
 				<!-- TOP NAV -->
@@ -167,7 +119,7 @@
 				<form>                                    <!--NEED TO FIGURE THIS SHIT OUT-->
 					<div class="menu">
 						<h1>Please Fill In The Form Below</h1>
-						<h2>Information about your submission</h2> <!--  onchange="hiddenDropdownValue()"-->
+						<h2>Information about your submission</h2>
 						<select id="building-type"> 
 							<option id="select" value="select">---select---</option>
 							<option id="residential" value="residential">residential</option>
@@ -194,11 +146,6 @@
 							<input type="number" name="residential-basements" id="numBaseR" min="0" onchange="mainQuote()">
 							</br>
 						</div>
-						<!-- <div id="number-of-column">
-							<label for="numBaseR">Number of basements:</label>
-							<input type="number" name="residential-basements" id="numColumn" min="0" onchange="mainQuote()" readonly>
-							</br>
-						</div> -->
 					</div>
 							<!--              Commercial-->
 						<div id="commercial1" class="building-style">
@@ -223,7 +170,6 @@
 						</div>
 						<div id="number-of-elevators">
 							<label>Number of elevators:</label>
-							<!-- onclick="commercialChoice()"-->
 							<input type="number" name="commercial-elevators" min="0" id="commercial-elevators" onchange="mainQuote()">
 						</div>
 						</div>
