@@ -44,6 +44,7 @@ function mainQuote() {
         totalPriceElevators();
         instFee();
         finalPrice();
+        turnToFloat();
         beautify();
        
     } else if (building_type.value === "commercial"){
@@ -52,7 +53,7 @@ function mainQuote() {
         totalPriceElevators();
         instFee();
         finalPrice();
-        turnToFloat()
+        turnToFloat();
         beautify();
     } else if (building_type.value === "corporate") {
         corporateCalculation();
@@ -60,6 +61,7 @@ function mainQuote() {
         totalPriceElevators();
         instFee();
         finalPrice();
+        turnToFloat();
         beautify();
 
     } else if (building_type.value === "hybrid") {
@@ -68,6 +70,7 @@ function mainQuote() {
         totalPriceElevators();
         instFee();
         finalPrice();
+        turnToFloat();
         beautify();
         
     }   
