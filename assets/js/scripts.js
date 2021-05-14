@@ -105,7 +105,6 @@
 		_lightbox();
 		_mixitup();
 		_animate();
-		_onepageNav();
 		_scrollTo(false, 0);
 		_parallax();
 		_video();
